@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    background-color:rgb(238, 229, 229);
+    font-family: 'Roboto', sans-serif;
+  }
+
+h2{
+    color: rgb(28, 128, 222);
+   
+}
+
+.n1{
+
+    color: rgb(28, 128, 222);
+    position: absolute;
+   top: 160px;
+   left: 900;
+}
+.n2{
+
+    color: rgb(28, 128, 222);
+    position: absolute;
+   top: 310px;
+   left: 900;
+   
+
+}
+
+
+.n3{
+
+    color: rgb(28, 128, 222);
+    position: absolute;
+   top: 460px;
+   left: 900;
+   
+
+}
+
+
+.pagelogin{
+
+margin:0 auto;
+justify-content: center;
+display: flex;
+
+width:900px;
+height:650px;
+border:2px solid coral;
+border-radius: 30px;
+margin-top: 40px;
+background-color: rgb(248, 243, 236);
+
+}
+
+input {
+display:block;
+height: 40px;
+width: 300px;
+margin-top: 100px;
+border-radius: 5px;
+border-color: coral;
+}
+
+.btn1 {
+  
+    background-color: rgb(240, 167, 32);
+    color: rgb(28, 128, 222);
+    border: 10px; 
+   
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+   mask-position: 20px;
+   transition: 0.6s;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  // echange de cursor
+
+.btn1  :hover {
+    background-color: 100% 0%;
+}
+
+
+.btn2 {
+    background-color: rgb(240, 167, 32);
+    color: rgb(28, 128, 222);
+    border: 10px; 
+    
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    
+    margin-left: 30px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.btn2  :hover {
+    background-color: 100% 0%;
+}
+
+.btn3 {
+  
+    background-color: rgb(240, 167, 32);
+    color: rgb(28, 128, 222);
+    border: 10px; 
+   
+   
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+  
+   margin-left: 30px;
+
+   font-weight: 700;
+   cursor: pointer;
+  }
+
+.btn3  :hover {
+    background-color: 100% 0%;
+}
+
+
+.imageune{
+ margin-top: 150px;
+ margin-right: 100px;
+
+
+}
+
+.error{
+
+    color: red;
+}

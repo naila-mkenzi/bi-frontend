@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import React, { useState } from 'react';
+import Connexion from "./connexion";
+
+
+
+
 
 function App() {
-  return (
+
+const adminUser = {
+
+email: "naila@admin.com",
+password: "admin123"
+}
+
+const [user, setUser] = useState({name:", email:"});
+const [error, setError] =useState ("");
+ 
+//methode de login
+const Login = details => {
+  console.log(details);
+
+// condition
+if (details.email == adminUser.email && details.password == adminUser.password){
+console.log("Login"); 
+setUser({
+name: details.name,
+email: details.email
+});
+} 
+else {
+console.log("Les informations sont incorrectes");
+setError(" Remplir les champs pour connecter ! ");
+                          
+}
+}
+
+return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+    
+       <Connexion Login={Login} error={error}/> 
     </div>
   );
 }
+
 
 export default App;
