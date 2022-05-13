@@ -19,17 +19,20 @@ function App() {
       details.email == adminUser.email &&
       details.password == adminUser.password
     ) {
-      console.log("Login");
+      console.log("Login"); 
+      
+
       setUser({
-        name: details.name,
         email: details.email,
       });
-    } else {
+
+    }
+     else {
       console.log("Les informations sont incorrectes");
       setError(" Remplir les champs pour connecter ! ");
     }
   };
-  //hello from abdelwahab
+ 
   return (
     <div className="App">
       <Connexion Login={Login} error={error} />
