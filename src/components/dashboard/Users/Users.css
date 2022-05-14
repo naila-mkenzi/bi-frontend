@@ -1,0 +1,19 @@
+/* .user-table {
+  width: 100%;
+}
+.user-container {
+  display: flex;
+  border: 1px dashed red;
+  width: 100%;
+} */
+.add-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.table-title {
+  text-align: center;
+}
+.container {
+  margin-top: 1vh;
+}

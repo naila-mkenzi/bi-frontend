@@ -30,6 +30,7 @@ export default function Connexion({ Login, error }) {
                 Nom d'utilisateur :
               </label>
               <input
+                className="connection-input"
                 type="userName"
                 name="userName"
                 id="userName"
@@ -44,6 +45,7 @@ export default function Connexion({ Login, error }) {
                 Mot de passe :
               </label>
               <input
+                className="connection-input"
                 type="password"
                 name="password"
                 id="password"

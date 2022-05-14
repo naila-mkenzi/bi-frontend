@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="" element={<Connexion Login={Login} error={error} />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/*" element={<Dashboard />} />
       </Routes>
     </div>
   );
